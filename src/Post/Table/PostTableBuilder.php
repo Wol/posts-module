@@ -22,7 +22,8 @@ class PostTableBuilder extends TableBuilder
         'title',
         'author',
         'category',
-        'enabled'
+        'enabled',
+        'type'
     ];
 
     /**
@@ -34,7 +35,8 @@ class PostTableBuilder extends TableBuilder
         'entry.edit_link',
         'author',
         'category',
-        'entry.enabled.label'
+        'entry.enabled.label',
+        'type'
     ];
 
     /**

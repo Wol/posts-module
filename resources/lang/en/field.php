@@ -78,5 +78,10 @@ return [
     'ttl'              => [
         'label'        => 'Time to live (TTL)',
         'instructions' => 'How long (in minutes) do you want to cache the post before serving fresh content?'
-    ]
+    ],
+    'type'           => [
+    'name'         => 'Type',
+    'instructions' => 'The post type.'
+    ],
+
 ];
